@@ -1,0 +1,23 @@
+//SuperClicks Plugin by ° Sùpê®chåchí °
+
+name superclicks 
+
+// Define the commands starting at 0
+begin commands
+  send ExecPlugin|superclicks|{01}<MyComboBox1>{02}<Mytextbox22>{03}                   //index=0
+  msgbox SuperClicks+plugin+by+°+Sùpê®chåchí+°+(Nov+5/2002)   //index=2
+end commands
+
+
+//Control definitions:
+label    MyLabel1 10 10 8 ========================================
+label    MyLabel7 10 23 8 ++++++++++++++++MoSucker+plugin:+SuperClicks+++++
+label    MyLabel2 10 35 8 ========================================
+label    MyLabel3 10 50 8 Select+the+image+to+be+displayed:
+combobox MyComboBox1 60 75 150 CLEAN+WINDOWS#SUCKERED#FURBY#COFFEE+TIME#BILL+RICH#LOTSA+PORN
+label    MyLabel4 10 120 8 Number+of+mouseclicks+active:
+textbox Mytextbox22 180 120 40 8 10
+
+
+button   MyButton2 55 150 150 17 0 Start+SuperClicks
+button   MyButton3 55 170 150 17 1 About

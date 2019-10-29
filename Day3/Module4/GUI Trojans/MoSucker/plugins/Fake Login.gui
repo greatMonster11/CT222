@@ -1,0 +1,23 @@
+//Fake Login Plugin by ° Sùpê®chåchí °
+
+name fakelogin
+
+// Define the commands starting at 0
+begin commands
+  send ExecPlugin|fakelogin|{01}<MyComboBox1>{02}<MyTextBox88>{03}        //index=0
+  msgbox Fake+Login+plugin+by+°+Sùpê®chåchí+°+(Nov+5/2002)   //index=2
+end commands
+
+
+//Control definitions:
+label    MyLabel1 10 10 8 ========================================
+label    MyLabel7 10 23 8 +++++++++++++++MoSucker+plugin:+FAKE+LOGIN
+label    MyLabel2 10 35 8 ========================================
+label    MyLabel3 50 55 8 Select+mail+service:
+combobox MyComboBox1 60 75 150 HOTMAIL#YAHOO
+label MyLabel1 50 120 8 Plugin+timeout:
+textbox MyTextBox88 128 118 30 18 70
+label MyLabel4 160 120 8 seconds
+
+button   MyButton2 55 150 150 17 0 Run+Fake+Login
+button   MyButton3 55 170 150 17 1 About

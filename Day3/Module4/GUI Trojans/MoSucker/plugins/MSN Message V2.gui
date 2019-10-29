@@ -1,0 +1,26 @@
+//MSN Mass Message by ° Sùpê®chåchí °
+
+
+name msnmsgv2 // Lets name this mother fucker!!!
+
+// Define the commands starting at 0
+begin commands
+  msgbox Your+message:+"<Mytextbox22>"                  //index=0
+  send ExecPlugin|msnmsgv2|<Mytextbox22>                  //index=1
+  msgbox MSN+Mass+Message+by+°+Sùpê®chåchí+°+(06/07/02) //index=2
+  send ExecPlugin|msnmsgv2|@@@                            //index=3
+end commands
+
+
+//Control definitions:
+label    MyLabel1 10 10 8 ========================================
+label    MyLabel7 10 23 8 +++++MoSucker+plugin:+MSN+MASS+MESSAGE+V2+++++
+label    MyLabel2 10 35 8 ========================================
+label    MyLabel3 10 50 8 Enter+the+message+that+you+would+like+sent+to+all
+label    MyLabel4 10 63 8 online+contacts+in+your+vic's+MSN+contact+list:
+textbox Mytextbox22 10 85 250 8 Enter+Message+here...
+
+button   MyButton8 55 110 150 17 3 Get+all+contacts
+button   MyButton1 55 130 150 17 0 Preview+Message
+button   MyButton2 55 150 150 17 1 Send+Message
+button   MyButton3 55 170 150 17 2 About

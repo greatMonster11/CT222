@@ -1,0 +1,32 @@
+
+Runtimes
+======================================================================
+
+
+The MoSucker 3.0 Client and Edit Server require the following runtimes:
+
+webdl.ocx, mswinsck.ocx, and mscomctl.ocx
+
+All you have to do to install these runtimes is to execute the Runtimes.exe
+file included in this folder.
+
+
+If you would prefer to register these manually then:
+----------------------------------------------------------------------
+
+1) Download the .ocx files
+
+2) Copy the 3 files in this folder to your system directory.
+
+3) Goto Start > Run and enter the following:
+
+"regsvr32 webdl.ocx" without the quotes. Click ok
+
+"regsvr32 mswinsck.ocx" without the quotes. Click Ok
+
+"regsvr32 mscomctl.ocx" without the quotes. Click Ok
+
+Thats it!
+
+
+-SC

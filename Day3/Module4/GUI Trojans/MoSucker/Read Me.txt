@@ -1,0 +1,29 @@
+
+MoSucker 3.0b - Released Nov. 20th 2002
+==========================================
+
+!!IMPORTANT!!
+---------------------------------------------------------------------------
+1) MoSucker 3.0b servers are not compatible with the MoSucker 3.0a edit server.
+
+2) If you get any runtime errors, execute Runtimes.exe in the runtimes folder.
+
+3) Check the announcements in the forum for the latest public CGI locations.
+
+4) The edit server cannot change the icon for servers that include the runtimes.
+   Use reshacker or microangelo. Icon is 32x32 16 colors
+
+5) Read the articles at http://www.mosucker.tk for more info on features
+
+
+
+Changes/bugfixes for 3.0b
+---------------------------------------------------------------------------
+- Modification of settings encryption for increased server security.
+- Edit server and client install runtimes if needed (since nobody can read).
+- MSN notification protocol error fixed.
+- MSN notification no longer gives visible error message when service is down.
+- Kill running system process checkbox error on reload fixed.
+- File exists routine for bound files fixed (bug rare)
+- Improved error handling in edit server.
+- Removed webdl.ocx dependancy.

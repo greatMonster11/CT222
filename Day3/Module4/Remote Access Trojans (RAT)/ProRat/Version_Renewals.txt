@@ -1,0 +1,726 @@
+ENLISH :
+---------------------------------------------------------------------------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+---------------------------------------------------------------------------------------------------------------
+  We added lots of features and fixed some bugs in this version so don't forget to use the server and clients last versions to get the best results.
+
+  If you connect to a server which was created in Pr0rAt v1.8 and connect to the server with the version 1.9 you may have some problems so be sure to use the same versions of the server and client.
+
+ You can learn the server version by clicking on the "Online Editor" section on the client, and if your server is an old version you can can update the server by creating a new one from Pr0rAt 1.9 client and upload and run it to the target PC with using file manager or remote downloader, after the server is restarted once the information of the server will be updated.
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.9 : Friday 27.08.2004
+----------------------------------------------------------------------------------
+
+The reasons for preparing and releasing Pr0rAt v1.9 for download are :
+
+-We arranged the ICQ Pager notification again.
+
+-A bug was found in Pr0rAt.cgi and its fixed.
+
+-When a file was binded with the server, the server thinks its been modified so public editions couldn't connect to their servers and this bug is fixed.
+
+-On the version info it was still viewing as version 1.8 and this error was fixed.
+
+-Some Win XP SP2 users had problems with the Pr0rAt Client and we made some arrangements on the client.
+
+-when the server was trying to disable Windows SP2 Security Center it was giving an error message and this bug was fixed.
+
+-We cancelled Pr0rAt's helper program called ProMessenger and replaced it with ProConnective and no-ip.com.
+
+-Turkish and English updated help files are added
+
+-A critical security bug on the Servers FTP module was fixed
+
+-Security bugs on Pr0rAt.cgi files are fixed
+
+-Brute force protection was added to the server.
+
+-Reverse (ConnectBack) Connection is added, so you can connect to PC's which are behind networks and routers.
+
+-A feature to grab Cd-Keys and program serials which are installed on the target PC was added.
+
+-We added a feature to grab Outlook 2003 passwords even if the passwords are not saved in the target PC's system. 
+
+-A feature is added to grab MSN Messenger passwords.
+
+-A feature is added to grab Windows Messenger passwords.
+
+-A feature is added to grab ICQ Lite 4.x passwords.
+
+-A feature is added to grab AOL Instant Messenger passwords.
+
+-A feature is added to grab Netscape 7 passwords.
+
+-A feature is added to grab GAIM passwords.
+
+-A feature is added to grab and view decrypted Yahoo Messenger passwords.
+
+-A feature is added to grab all FlashFXP FTP version passwords.
+
+-ICQ pager notification is fixed.
+
+-We added a feature for updating your server, you don't need to reset your server, the only thing you must do is upload your new server to your target PC and run it so your old server will be removed and replaced with the new server. (Your connection with the target PC will be diconnected for a short time and when you connect to the same target again you will see that the server is updated by clicking on the "Online Editor" button.)
+
+-We added a feature to automatically install and connect to the target pc with using microsoft Remote Desktop Connection.
+
+-We added a feature to automatically connect to the target PC by using CuteFtp.
+
+-A feature is added to hide the Server from registry and 2 party programs to view the server running on the startup. (+9kb)
+
+-Extra protection against deleting, changing and copying servers was added.
+
+-A feature is added against rootkits dedectors so they cant close the server.
+
+-Client ve Server is adaptated to Windows XP Service Pack 2.
+
+-A feature is added to the Server to bypass Windows XP Service Pack 2 "Security Centre"
+
+-If your victims operating system starts in safe mode the server will still keep running. (this means it's very hard to remove the server manually)
+
+-A option for receving notifications from the servers which are running behind networks or routers (192.*.*.* or 10.0.*.*) is added
+
+-We added a function on the client to add and remove shortcuts on IExplorer Toolbar.
+
+-There was a bug when trying to save the passwords from the server so we fixed it.
+
+-When Pr0rAt client can't find the language directory it will create a new language directory.
+
+-The problem in the system information section is fixed, Sometimes it couldn't find the printer which was installed on the target PC.
+
+-Some language characters wasn't publishing correctly on the server and clients chat windows and this bug is fixed
+
+-A option to set the Charset manually on your Keylogger window is added so you can read the keylogs which are written in a different languages even if that language isn't installed on your system.
+
+-Some small technical bugs were fixed.
+
+-We improved the Server edit protection with using MD5 hash algorithm and if even one byte is changed, the server will corrupt.
+
+-Rename button is added on the file manager so you can rename file names.
+
+
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.8 : Saturday 24.04.2004
+----------------------------------------------------------------------------------
+
+The reasons for preparing and putting Pr0rAt v1.8 for download are :
+
+-All security bugs on Client and Server are closed.
+
+-We added a remote for Forbidding a web site.
+
+-We stabilized the Email notification module.
+
+-We added Briefcase Server Converter.
+
+-We added Generic extensions converter.
+
+-we added a feature to add a shotcut on Internet Explorer Bar.
+
+-We added a automatic ftp connection over FlashFXP.
+
+-we added a modul to find the new ICQ 4.0 passwords on victims PC.
+
+-All files are modified to be undetectable against antivirus programs.
+
+-We fixed the problem with the disconnect button which was not working correctly.
+
+-Melt server on install was not working on version 1.6. We fixed that bug.
+
+-Services Manager was added. 
+Explanation: You can remote Service Managers on 2000,NT and XP systems with this menu. You can open Remote Desktop service and connect with remote desktop to your victim. you can open a telnet server also you can close or delete some antivirus and firewalls services from systems.
+
+-ProMessenger help file was not showned after you pressed it. We fixed this problem.
+
+-We cancelled the extra applications against unpacking the client so the client can run faster. We put a password to the server in client which is protected with a 128 bit crypto algorithm protect made with ProGroup protecter.
+
+-The victim couldnt write sometimes when using matrix chat without clicking on the screen. we fixed this problem.
+
+-Pr0rAt was opening in english as a default language but if you closed and open it again without changing the language it was opening in arabic. we fixed this problem.
+
+-We added a feature to use the menu forms on the client in a easy way, you can close these menus by pressing on esc.
+
+-The bug in Removing local server modul was fixed.
+
+-We improved and changed the File Manager.
+
+-We added Panda AntiVirus to the antivirus killing list.
+
+-Norton and XP internal firewall didnt work after you removed a local or remote server. We fixed this problem. 
+
+-We added a Mydoom uploader feature.
+
+-We added Run Reg entries.
+
+-We added lots of new language supports.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.7 : Thursday 1.04.2004
+----------------------------------------------------------------------------------
+
+We didnt publish Pr0rAt v1.7 public version because we did all the renewal and arrangements on Special Edition version so we passed directly to PeoRat v1.8 Public Edition.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION V1.6 : Monday 16.03.2004
+----------------------------------------------------------------------------------
+
+-The reasons for preparing Pr0rAt v1.6 for download :
+
+-Server was optimized to work in windows 2000 without any problems.
+
+-Client was optimized to get passwords in windows 2000 systems without problems.
+
+-Client was optimized to work faster and use less Ram in systems.
+
+-Mail notification report format from Servers was changed to [PcName]@[UserName].[VictimName].com
+
+-Some buttons and values were changed because they were conflict with some languages.
+
+-New Cute Ftp 6 series passwords can taken now.
+
+-Protection for removing Local Server was added.
+
+-looking up for a ip property was added in ProMessenger.
+
+-While using client, after you press create server ZoneAlarm was giving alert because of the ProMessenger automatic ip finder property so we fixed this up by putting a button there.
+
+-Creating a Shortcut Server function was added.
+
+-Downloader Server uncompressed size was modified to 5.50 KB.
+
+-The Client couldn't detect "Microsoft Win32s" versions and used to say unknown in the Pc information section. This error was fixed.
+
+-After making changes in Online Editör on victims PC you should had to restart the system after saving, Now we have added a "Restart" Button to restart the server so you dont need to restart the system to make you changes getting aktiv.
+
+-A function for changing the attributes status of the files in file manager to hidden, archive, system, Read only has been added.
+
+-Winrar modul was added to compress files in victims PC to download files faster.
+
+-Sometimes when Creating a Downloader server was making errors in some systems this error was fixed.
+
+-Lots of bugs was fixed.
+
+-Lots of language suports were added.
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.5 : Monday 1.03.2004
+----------------------------------------------------------------------------------
+
+We didn't produce a Pr0rAt v1.5'in public version so we made added new functions and passed directly to Pr0rAt v1.6 public version.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.4 : Tuesday 24.02.2004
+----------------------------------------------------------------------------------
+
+-The reasons for preparing Pr0rAt v1.4 for download
+
+-Multiple Language support has been added.
+
+-A critical bug for Keylogger has been fixed.
+
+-A bug has been fixed for PC information.
+
+-The Pager notification format has been changed to [PC Name]@[User Name].[Victim Name].com
+
+-A critical security vulnerability has been fixed before been detected from anyone. This was for unauthorized people to connect to server.(thanks vesko)
+
+-Passwords for all versions of Cute Ftp can be found now.
+
+-Client & Server is made undetectable from AntiVirus.
+
+-Tools menu has been added.
+
+-The error in ProMessenger for the skin has been fixed.
+
+-The transfer module has been optimized for making a stabile and fast transfer.
+
+-The Online News menu has been activated again.
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.3 : Monday 02.02.2004
+----------------------------------------------------------------------------------
+
+-The reasons for preparing Pr0rAt v1.3 for download
+
+-create Folder Server feature was added. This means you don’t need to use *.exe kind of files extensions. A windows folder will be your server.
+
+-Remote Downloader menu has been added.
+
+-Run menu has been added.
+
+-You can see hidden files and protected files in victims PC from file manager. 
+
+-A Search menu has been added on the client main window.
+
+-ICQ Pager notification has been activated again.
+
+-the error on Connecting to a servers FTP by using explorer behind ADSL, Router or inside a network has been fixed.
+
+-File Manager has been written again. Clients behind ADSL, Router, firewall or in a network will not have anymore problems with this function.
+
+-Getting display images menu has been written again Clients behind ADSL, Router, firewall or in a network will not have anymore problems with this function.
+
+-Keylogger file could not read the file properly and this was fixed to read it properly. The Deleted keys are automatically removed from log to make you read the log clearly.
+
+-password menu was written again. All errors were fixed.
+
+-Yahoo decrypted passwords has been modified to perceive directly.
+
+-iexplorer passwords has been modified to get more details and to be much more stabile.
+
+-Receiving passwords has been changed to Html format.
+
+-Receiving the Newly released ICQ2003b passwords feature has been added.
+
+-Receiving Eudora Mail passwords feature has been added.
+
+-Receiving IncrediMail passwords feature has been added.
+
+-Receiving Group Mail Free passwords has been added.
+
+-Receiving MSN Explorer passwords has been added.
+
+-The errors occurring while installing Plugin has been fixed.
+
+-All files of Pr0rAt has been changed to be undetectable against AntiVirus and Firewalls.
+
+-Some changes has been made in the theme to make Pr0rAt more usefully.
+
+-The default theme has been changed.
+
+-Two new skins has been added.
+
+-The Pr0rAt client chat has been modified. While chatting with victim every time a new message comes you will be alerted with sound.
+
+-Pr0rAt clients windows has been modified to stick the corners of the windows together just like WinAmp. This feature has been added.
+
+-Lots of Stabilizing working has been made on Pr0rAt server and client to make it work better.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.2 : Wednesday 20.01.2004
+----------------------------------------------------------------------------------
+
+-The reasons for preparing Pr0rAt v1.2 for download
+
+Server, downloader server has been modified for getting undetectable from AntiVirus and firewalls. 
+
+4 different menus has being added to Extras.
+ 
+Stabilization has being made on server and client.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.1 : Wednesday 14.01.2004
+----------------------------------------------------------------------------------
+-The reasons for preparing Pr0rAt v1.1 Fix for download
+
+-Servers which work on 9x systems had problems with file manager The error has been fixed.
+
+-Stabilization has being made on server and client.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+RENEWAL AND ARRANGMENTS MADE IN  Pr0rAt VERSION 1.1 : Thursday 01.01.2004
+----------------------------------------------------------------------------------
+
+-The error in applications has been Fixed. 
+
+-Some changes has been made on matrix chat. the Victims has no chance to defense them self.
+
+-Change IE headline features has been added to internet explorer. 
+you can learn online server versions. 
+
+-Get version has been added to online server editor.
+
+-Multiple language including Turkish has been added to keylogger.
+
+-There where some errors when passing though drives in file manager. The errors are fixed 
+
+-When you select a empty floppy or CD drive the server didn’t use to reply and was giving a error. This error was fixed.
+
+-Window menu was added
+
+-ICQ pager notification was added
+
+-There was problems with the shortcuts for the icons when creating server. The are fixed.
+
+-In win2k/xp systems when you press ctrl+alt+del you cant see Pr0rAt server applications anymore.
+
+-Some technical errors was fixed in ProMessenger.
+__________________________________________________________________________________
+***************************************************************************************************************
+---------------------------------------------------------------------------------------------------------------
+
+
+
+TURKISH :
+---------------------------------------------------------------------------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+---------------------------------------------------------------------------------------------------------------
+  Pr0rAt'ýn bu versiyonun da programýn daha saðlýklý çalýþmasý için bazý eklemelerin yaný sýra bir çok hata düzeltildi ve deðiþiklik yapýldý. Ancak bu düzenlemelerden yararlanabilmek için hem serverýnýzýn hemde clientinizin en son sürüm olmasý gerektiðini unutmayýnýz. 
+
+  Yani Pr0rAt v1.8 serverýna Pr0rAt v1.9 clienti ile baðlanarak düzeltildiðini söylediðimiz bir sorunun ortadan kalkmýþ olmasýný bekleyemezsiniz. Hatalardan arýnmýþ bir baðlantý için hem serverýnýzýn hem de clientinizin en son sürüm olduðundan emin olmalýsýnýz. 
+
+  Baðlandýðýnýz Pr0rAt serverýnýn versiyonunu "Online Editör" bölümünde görebilirsiniz. Eðer baðlý olduðunuz serverýn versiyonu clientinizin versiyonundan eski ise. Pr0rAt v1.9 ile yeni bir server oluþturup clientiniz üzerindeki "Dosya Yöneticisi" bölümü yada "Remote Donwloader" bölümü ile kurbanýnýza yükleyip çalýþtýrýn. Kurbanýnýzýn PC'sindeki server ilk restart dan sonra otomatik olarak yeni serverýnýzý oluþtururken girdiðiniz bilgiler ile güncellenecektir.
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.9 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Cuma 27.08.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.9'un hazýrlanýp downloada sürülmesinin nedenleri þunlardýr :
+
+-ICQ Pager bildirimi yeniden düzeltildi.
+
+-Pr0rAt.cgi de yeni bi açik daha bulundu ve kapatýldý.
+
+-Server bir dosya ile birleþtirildiðinde, modifie edildiðini sanýyor ve nitekim birleþtirilen serverlara
+publik client baðlanmýyordu bu durum düzeltildi
+
+-Version info da 1.8 yazýyordu bu hata giderildi.
+
+-Pr0rAt clientinin Win XP SP2'de yarattýðý çeþitli sorunlar client üzerinde yapýlan güncellemeler ile düzenlendi.
+
+-Windows SP2 Güvenlik Merkezinin kapatýlmasý sýrasýnda oluþan bir bug giderildi.
+
+-Pr0rAt'ýn yardýmcý programý ProMessenger iptal edildi. Yerine Reverse Connection ve no-ip.com destekli ProConnective eklendi.
+
+-Turkçe ve ingilizce yardým dosyalarý güncel sürüme uygun olarak hazýrlandý.
+
+-Serverin FTP modülünde bulunan kiritik bir güvenlik açýðý kapatýldý.
+
+-Pr0rAt.cgi dosyasýnda bulunan güvenlik açýklarý giderildi.
+
+-Servera Burute Force þifre ataðý korumasý getirildi.
+
+-Reverse (ConnectBack) Connections eklendi bu sayede artýk network veya router arkasýndaki PC'lere baðlanabiliceksiniz.
+
+-Birçok oyun ve Programa ait Cd-Key'lerin alýnmasý eklendi.
+
+-Outlook 2003 þifrelerinin sisteme kayýt edilmemesi seçeneði seçili durumda olsa bile þifrelerin alýnmasý saðlandý.
+
+-MSN Messenger þifrelerinin alýnmasý eklendi.
+
+-Windows Messenger þifrelerinin alýnmasý eklendi.
+
+-ICQ Lite 4.x þifrelerinin alýnmasý eklendi.
+
+-AOL Instant Messenger þifrelerinin alýnmasý eklendi.
+
+-Netscape 7 þifrelerinin alýnmasý eklendi.
+
+-GAIM þifrelerinin alýnmasý eklendi.
+
+-Yahoo Messenger þifrelerinin direk decrypt edilip alinmasi saðlandý.
+
+-FlashFXP FTP tüm versiyonlarýnýn þifrelerinin alýnabilmesi eklendi.
+
+-ICQ pager iletiminin tekrar çalýþmasý saðlandý.
+
+-Server güncelleþtirme iþleminde hedef PC'nin veya serverýn restart edilme zorunluluðu kalktý tek yapmanýz gereken yeni server oluþturup hedef PC'ye yükleyip çalýþtýrmak. Böylelikle server çalýþtýrýldýðý gibi eski serverý kaldýrýp anýnda onun yerine geçerek güncellenmiþ oluyor. (Bu sýrada kýsa süreliðine baðlantý kopar. Yeniden baðlandýðýnýz da serverin güncellendiðini "Online Editor" menüsünden görebilirsiniz.)
+
+-Otomatik olarak microsoft "Uzak Masaüstü Baðlantýsý" kurularak baðlanabilinmesi eklendi.
+
+-Otomatik olarak CuteFtp üzerinden baðlanma eklendi.
+
+-Serverýn Registrye kayýt ettiði baþlangýç yollarýnýn regedit dahil hiç bir harici program ile görülememesi saðlandý. (+9kb)
+
+-Serverýn kopyalarýna, deðiþtirilme ve silinmeye karþý daha fazla koruma eklendi.
+
+-Serverýn Rootkit dedectorler tarafýndan kapatýlamamasý eklendi.
+
+-Client ve Server Windows XP Service Pack 2 ile uyumlu hale getirildi.
+
+-Serverýn Windows XP Service Pack 2 ile gelen "Güvenlik Merkezini" aþabilmesi saðlandý. 
+
+-Ýþletim sistemi güvenli modda çalýþtýrýlsa bile serverýn yine otomatik olarak çalýþmasý saðlandý. (Bu sayede manual olarak serverýn kaldýrýlmasý çok daha güçleþecektir.)
+
+-Ýsteðe baðlý olarak Serverýn çalýþtýðý sistemde LAN yada Router baðlantýsý bulduðunda(192.*.*.* veya 10.0.*.*) notification yapmamasý eklendi.
+
+-Clientin IExplorer Araç Çubuðuna kýsayolunu ekleyip kaldýrabilmesi eklendi.
+
+-Þifreler alýndýktan sonra kayýt edilirken oluþan hata düzeltildi.
+
+-Pr0rAt clientinin çalýþtýrýldýðýnda Language klasörünü bulamazsa yeni bir Language klasörü oluþturmasý saðlandý.
+
+-PC Bilgisi bölümünde  bazý durumlarda sistemdeki printer tespit edilemiyordu bu hata giderildi.
+
+-Bazý lisanlarda server ve clientteki chat pencerelerinde karakterler düzgün çýkmýyordu bu hata düzeltildi.
+
+-Keylogger penceresine charset'in manual olarak belirlenmesi eklendi. Böylelikle PC'nizde yüklü olamayan bir dilde bile keylog alsanýz rahatça okuyabilirsiniz.
+
+-Ufak çaplý bir çok teknik bug giderildi.
+
+-Server edit korumasý geliþtirildi MD5 hash algoritmasý kullanýldý ve tek bir byte dahi deðiþtirildiðinde server bozuluyor.
+
+-Dosya yöneticisine "Yeniden Adlandýr" fonksiyonu eklendi.
+
+
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.8 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Cumartesi 24.04.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.8'in hazýrlanýp downloada sürülmesinin nedenleri þunlardýr :
+
+-Client ve Server üzerindeki tüm güvenlik açýklarý kapatýldý.
+
+-Remote site yasaklama eklendi.
+
+-Mail notification modülü stabilleþtirildi.
+
+-Briefcase Server Converter eklendi.
+
+-Generic extensions converter eklendi.
+
+-IE Tool bara kýsayol butonu eklemesi saðlandý.
+
+-FlashFXP üzerinden otomatik ftp baðlantýsý eklendi.
+
+-Yeni çýkan ICQ 4.0 þifrelerinin alýnmasý eklendi.
+
+-Tüm dosyalar undedected yapýldý.
+
+-Baðlantýyý kes butonu remote baðlantýlarda hemen baðlantýyý kesemiyordu bu hata düzeltildi.
+
+-Server kendisini silsin özelliði 1.6'da çalýþmýyordu bu bug düzeltildi.
+
+-Services Manager eklendi 
+Açýklama: Bu menü ile 2000,NT ve XP sistemlerdeki sistem servislerini yönetebilirsiniz. Remote Desktop servisini açýp remote desktop ile baðlanabilirsiniz, telnet serverý açabilirsiniz veya bazý av ve fw lerin servislerini durdurabilir ve silebilirsiniz. Kýsacasý servis yöneticisi ile yapýlabilen her iþlemi gerçekleþtirebilirsiniz.
+
+-ProMessenger help dosyasýný gösteremiyordu bu hata düzeltildi.
+
+-Client unpack edilemesin diye yapýlan ek iþlemler iptal edildi böylelikle client daha çabuk çalýþtýrýlabiliyor ve client içinde bulunan server progroup protector ile 128 bit kripto algoritmasý ile þifrelendi.
+
+-Bazen açýlan matrix chat ekranýna kurban mause ile týklamadýðý sürece yazý yazamýyordu bu hata düzeltildi.
+
+-Pr0rAt ilk çalýþtýrýldýðýnda default olarak ingilizce açýlýyordu ancak ilk açýldýðýnda dil deðiþtirilmeden kapatýlýp yeniden açýldýðýnda arapca oluyordu bu bug giderildi.
+
+-Açýlan menu formlarýnýn kolaylýk açýsýndan Escape(esc) tuþu ile kapanma özelliði eklendi.
+
+-Local server kaldirma modulunde bug giderildi.
+
+-Dosya yöneticisi deðiþtirildi ve geliþtirildi.
+
+-AV Kill listesine Panda AntiVirus eklendi.
+
+-Server local yada remote kaldýrýldýðýnda kapatýlan norton ve xp dahili firewall'ýnýn yeniden baþlatýlmasý saðlandý.
+
+-Mydoom uploader eklendi.
+
+-Reg entiries çalýþtýrma eklendi.
+
+-Birçok yeni lisan dosyasý eklendi.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.7 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Perþembe 1.04.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.7'nin public versiyonu çýkartýlmadýðý için tüm düzenleme ve eklentiler Special Edition üzerinde yapýlarak v1.8 Public Editiona sürüme direk geçildi.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.6 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Pazar 16.03.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.6'ün hazýrlanýp downloada sürülmesinin nedenleri þunlardýr :
+
+-Serverýn windows 2000 de sorunsuz çalýþmasý saðlandý.
+
+-Clientin windows 2000 de þifreleri alýrken hata vermesi engellendi.
+
+-Clientin hafýzadaki durumu optimize edilerek daha az ram gereksinimi duyarak daha hýzlý ve stabil çalýþmasý saðlandý.
+
+-Serverlardan gelen Pager bildiriminde ki mail formatý [PcÝsmi]@[KullanýcýÝsmi].[KurbanÝsmi].com formatýnda daha net anlaþýlýr hale getirildi.
+
+-Bazý buton ve deðerler kullanýlan lisanlar ile uyuþmazlýk yapýyordu düzeltildi.
+
+-Cute Ftp'nin yeni çýkan 6 serisinin þifrelerinin de alýnmasý saðlandý.
+
+-Local Server kaldirma korumasi eklendi.
+
+-ProMessenger'a genel ip bulma özelliði eklendi.
+
+-Clienti kullanýrken Server oluþtur menüsü açýldýðý anda ZoneAlarmýn ProMessenger ip kutusunun otomatik ip bulma fonksiyonu yüzünden alarm vermesini engellemek için ip bulma iþlemi butona baðlandý.
+
+-Kýsayol þeklinde server oluþturma özelliði eklendi.
+
+-Downloader Serverýn sýkýþtýrýlmamýþ boyutu 5.50 KB 'a düþürüldü.
+
+-Pc bilgisi bölümünde windows versionu "Microsoft Win32s" olduðunda tespit edemeyip "Unkown" olarak gösteriyordu bu hata düzeltildi.
+
+-Online Editör ile servera yeni ayarlar yaptýktan sonra "Yeniden Baþlat" butonuna týklandýðýnda yeni ayarlarýn hemen aktifleþmesi saðlandý. Böylece yeni ayarlarýn geçerli olmasý için kurbanýnýzýn PC'sini yeniden baþlatmanýza gerek kalmadý.
+
+-Kurbanýnýzýn sisteminde ki dosyalarýn gizli, arþiv, sistem, salt okunur vs þeklinde özniteliklerini deðiþtirebilmeniz için dosya yöneticisine yeni bir fonksiyon eklendi.
+
+-Kurbanýnýzýn PC'sinden çekeceðiniz dosyalarýn boyutunu ufaltarak transfer iþlemini daha çabuk yapabilmeniz için Remote WinRar sýkýþtýrma modülü eklendi.
+
+-Downloader server oluþturulurken bazý sistemlerde meydana gelen hata düzeltildi.
+
+-Çok sayýda teknik bug giderildi.
+
+-Birçok yeni lisan dosyasý eklendi.
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.5 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Pazartesi 1.03.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.5'in public versiyonu çýkartýlmadýðý için tüm düzenleme ve eklentiler Special Edition üzerinde yapýlarak v1.6 public sürüme direk geçildi.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.4 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Salý 24.02.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.4'ün hazýrlanýp downloada sürülmesinin nedenleri þunlardýr :
+
+-Çoklu lisan desteði eklendi.
+
+-Keylogerda kritik bir bug giderildi.
+
+-Pc bilgisi al da bug giderildi.
+
+-Pagerdaki mail formati [PcIsmi]@[KullanisiIsmi].[KurbanIsmi].com formatinda daha net hale getirildi.
+
+-Server'a yetkisiz kiþilerin girmesine yarayabilecek kritik bir güvenlik açýðý fark edilmeden kapatýldý.(thanks vesko)
+
+-Cute Ftp'nin tüm versiyonlarýnýn þifrelerini almasý saðlandý.
+
+-Client & Server tekrar undedectable yapildi.
+
+-Araçlar menusu eklendi.
+
+-ProMessenger da ki skin tanýyamama hatasý düzeltildi.
+
+-Transfer modülü optimize edilerek transferlerin daha stabil ve hýzlý olmasý saðlandý.
+
+-Online Haberler menüsünün yeniden çalýþmasý saðlandý.
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.3 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Pazartesi 02.02.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.3'ün hazýrlanýp downloada sürülmesinin nedeni þunlardýr :
+
+-"Klasör Server" oluþturma özelliði eklendi. Bu sayede artýk  *.exe gibi uzantýlarý kullanmaya mecbur kalmayacaksýnýz. Normal bir Windows klasörü sizin serverýnýz olacak.
+
+-Remote Downloader menüsü eklendi.
+
+-Çalýþtýr menüsü eklendi.
+
+-Dosya Yöneticisinde serverýn çalýþtýðý PC'deki gizli dosyalarýn ve korumalý iþletim sistemi dosyalarýnýn görüntülenmesi saðlandý.
+
+-FTP baðlantýlarýn da serverýn çalýþtýðý PC'deki gizli dosyalarýn ve korumalý iþletim sistemi dosyalarýnýn görüntülenmesi saðlandý.
+
+-Dosya Arama menüsü clientin ana ekranýna menü olarak eklendi.
+
+-Icq pager bildirimi tekrar aktifleþtirildi.
+
+-ADSL, Router ve Að içindeki PC'lerden serverýn FTP'sine explorer üzerinden baðlanýrken yaþanan sorun giderildi.
+
+-Dosya yöneticisi yeniden yazýldý adsl, network, router ve friwall arkasýnda client çalýþtýranlarýn Dosya yöneticisinde yaþadýðý sorunlar tamamen giderildi.
+
+-Görüntü Al menüsü yeniden yazýldý adsl, network, router ve friwall arkasýnda client çalýþtýranlarýn Görüntü Al menüsünde yaþadýðý sorunlar tamamen giderildi.
+
+-Keyloggerýn log dosyasýný tam okuyamama sorunu giderildi. Ve silinen tuþlarýn logdan otomatik olarak temizlenmesi saðlandý. Bu sayede loglara okuma kolaylýðý ve anlaþýlýrlýk kazandýrýldý.
+
+-Þifreler menüsü yeniden yazýldý bir çok hata düzeltildi.
+
+-Þifreler menüsünde ki yahoo decrypt þifrelerinin direk algýlanmasý saðlandý.
+
+-Þifreler menüsünde iexplorer þifrelerinin daha detaylý ve stabil alýnmasý saðlandý.
+
+-Þifre alýmlarý html formatýna çevrildi.
+
+-Yeni çýkan ICQ2003b þifrelerinin alýnmasý eklendi.
+
+-Eudora Mail þifrelerinin alýnmasý eklendi.
+
+-IncrediMail þifrelerinin alýnmasý eklendi.
+
+-Group Mail Free þifrelerinin alýnmasý eklendi.
+
+-MSN Explorer þifrelerinin alýnmasý eklendi.
+
+-Plugin yükleme sistemindeki hatalar giderildi.
+
+-Pr0rAt ýn tüm dosyalarý tekrar tüm Anti Virüs ve Firewallara karþý tanýnmaz yapýldý.
+
+-Pr0rAt clientinin arayüzünde bazý deðiþiklikler yapýlarak kullaným kolaylýðý getirildi.
+
+-Clientin default ara yüzü deðiþtirildi.
+
+-Ýki adet yeni skin eklendi.
+
+-Pr0rAt clientinin chat bölümü düzenlendi ve chat esnasýn da  yeni mesaj geldiðinde sesli uyarý eklendi.
+
+-Pr0rAt clientinin ve client tarafýndan açýlan tüm pencerelerin birbirlerine ve ekran köþelerine winamp gibi otomatik yapýþmasý özelliði eklendi.
+
+-Server ve client üzerinde bir çok stabilizasyon çalýþmasý yapýlmýþtýr.
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.2 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Çarþamba 20.01.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.2 nin hazýrlanýp downloada sürülmesinin nedeni þunlardýr :
+
+-Server, Downloader Server vs gibi tüm parçalar Anti Virüsler ve Firewallarca tanýnmaz yapýldý.
+
+-Ýçinde 4 ayrý menü içeren "Ekstralar" bölümü eklendi.
+
+-Server ve client üzerinde bazý stabilizasyon çalýþmalarý yapýlmýþtýr.
+
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.1 Fix1 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Çarþamba 14.01.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.1 Fix1'in hazýrlanýp downloada sürülmesinin nedeni þunlardýr :
+
+-9x sistemlerde çalýþan serverlarýn dosya yöneticisinin çalýþmamasý hatasý giderildi.
+
+-Server ve client üzerinde bazý stabilizasyon çalýþmalarý yapýlmýþtýr.
+
+
+__________________________________________________________________________________
+----------------------------------------------------------------------------------
+Pr0rAt v1.1 VERSÝYON YENÝLÝKLERÝ VE DÜZENLEMELER : Perþembe 01.01.2004
+----------------------------------------------------------------------------------
+
+Pr0rAt v1.1'e eklenen özelliklerin ve düzeltilen hatalarýn bazýlarý þunlardýr :
+
+-Uygulamalar bölümünde ki hata giderildi.
+
+-Matrix chatte deðiþiklikler yapýldý. Kurbanýn müdahale etme þansý sýfýra indirildi.
+
+-Internet Explorer menüsüne "IE baþlýðýný deðiþtir" özelliði eklendi.
+
+-Online server editörde versiyon öðrenilmesi eklendi.
+
+-Keylogger'a Türkçe dahil olmak üzere çoklu dil desteði eklendi ve log yapýsý daha anlaþýlýr hale getirildi.
+
+-Dosya yöneticisi ile sürücüler arasýnda gezinirken çýkan hatalar düzeltildi.
+
+-Dosya yöneticisi ile boþ bir Floppy veya CD sürücüsü seçildiðinde oluþan ve serverýn yanýt vermemesine neden olan önemli hata düzeltildi.
+
+-Pencereler menüsü eklendi.
+
+-ICQ pager bildirimi eklendi.
+
+-Server oluþtur menülerinde ki "Server Simgesi" bölümlerinde hatalý simge kýsa yollarý düzeltildi.
+
+-Pr0rAt serverýnýn  Win2k/XP sistemler de dahil olmak üzere tüm Windows iþletim sistemlerinin Ctrl+Alt+Del ile açýlan görev yöneticisinde görünmesi engellendi.
+
+-ProMessenger 'da ki bazý teknik hatalar düzeltildi.
+__________________________________________________________________________________
+***************************************************************************************************************
+---------------------------------------------------------------------------------------------------------------

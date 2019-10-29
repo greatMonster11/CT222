@@ -1,0 +1,37 @@
+LICENSE AGREEMENT FOR ATELIER WEB REMOTE COMMANDER ACCESS CONTROL
+(AWRCAC)  
+
+You should carefully read the following terms and conditions before
+using this software.
+
+Governing Law  
+This agreement shall be governed by the laws of the Republic of
+Portugal.  
+ 
+Disclaimer of Warranty  
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD 'AS IS' AND
+WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER
+WARRANTIES WHETHER EXPRESSED OR IMPLIED. Because of the various
+hardware and software environments into which AWRCAC may be put, NO
+WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED.  
+ 
+Good data processing procedure dictates that any program be
+thoroughly tested with non-critical data before relying on it. The
+user must assume the entire risk of using the program. ANY LIABILITY
+OF THE SELLER WILL BE LIMITED EXCLUSIVELY TO PRODUCT REPLACEMENT OR
+REFUND OF PURCHASE PRICE.  
+ 
+Distribution of Evaluation Version  
+AWRCAC evaluation version is distributed only within the Atelier Web
+Remote Commander (AWRC) evaluation version distribution.  
+ 
+You are specifically prohibited from charging, or requesting
+donations, for any such copies, however made; and from distributing
+the software and/or documentation with other products (commercial or
+otherwise) without prior written permission.  
+ 
+Purchased Version  
+One AWRCAC license allows the program to be used only on one
+appointed computer. After 365 days, the licensee may appoint a
+different computer and request another license to be issued free of
+charge.

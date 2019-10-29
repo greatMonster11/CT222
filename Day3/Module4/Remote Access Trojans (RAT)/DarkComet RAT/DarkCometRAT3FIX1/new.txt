@@ -1,0 +1,72 @@
+[DARKCOMET-RAT 3.0.1 (FIX 1)]
+	By DarkCoderSc
+
+- [Server startup]Now server module install correctly in Windows and System dir (if user got privileges).
+- [Edit Server] Server generation is now 50x faster and safe threaded
+- [Edit Server] File binder , Plugins disabled for EOF mode (only), it was corrupting the EOF settings, use RES mode to bind/add plugins to server, the rest still working fine with EOF mode.
+- [File Manager] No more random errors when browsing files
+- [File Manager] Now even if you browse large amount of files, for example system32 it will works fine without any problems
+- [File Manager] Now you can put arguments when you run a file (SHOW and HIDDEN)
+- [Fun reader] No more error display if it fail
+- [Edit Server] Plugins error managed
+- [Mistakes, Small bug fixed] Some mistakes fixed also other small bugs
+
+
+
+DarkComet 3.0 List improvement
+------------------------------
+	By DarkCoderSc
+
+- 09/10/2010 : RC4 traffic encryption done , its encrypt all plain text and data flux with a RC4 encryption 256 bit , all your private data are now totally secured and DarkComet is impossible to flood / exploit .
+- 09/10/2010 : Dynamic RC4 256 bit Key added when you choose a password on DarkComet , thats mean if you want to be secured at 200% when you choose a password in server it will bind the actual RC4 key with your 
+							 password then without the correct client password the data wont be correctly decrypted then nothing will work without your password.
+- 09/10/2010 : Now edit server settings are totally encrypted in RC4 256 bit too then its no more possible to reverse and read your personnal settings , again you are totally secured now ;)
+- 10/10/2010 : New column added in connection list (SIN) , now you can see the RAM usage/Total RAM and Free RAM.
+- 10/10/2010 : New column added in connection list (SIN) , now you can see the country code/country localisation(geo) and the default system langage
+- 10/10/2010 : New column added in connection list (SIN) , now you can see the first execution data/time of the server if it just been executed and not installed it display the current date/time.
+- 10/10/2010 : Now you can choose if you want to display the default language flag or the geo ip flag :)
+- 10/10/2010 : In OS collumn windows installed drive added (its where windows was installed)
+- 12/10/2010 : Clipboard manager have been recoded , now you can resize the textbox and listview for a better confort
+- 12/10/2010 : Two functions added in Clipboard manager , get the remote clipboard text in your clipboard , and send your clipboard text to the remote clipboard.
+- 12/10/2010 : Process Manager got now a real better compatibility on 64 bit OS, now it list all process :)
+- 12/10/2010 : Process Manager list the process 3x faster.
+- 12/10/2010 : If you use a password for protecting connection it will be display in tray icons with a locker to remind you ! ;)
+- 16/10/2010 : New toast style made , now you it display more information and have a better design.
+- 16/10/2010 : Clipboard copy problem fixed in password manager , also the whole system is more stable now.
+- 30/10/2010 : New edit server design fixed and recoded at 100% , more fast , more stable , more options.
+- 30/10/2010 : New profile save/load system with many options possibility's such as Encrypt/Decrypt your custom profile with password
+- 30/10/2010 : Ultra verbose system added on edit server.
+- 30/10/2010 : Edit server doc started.
+- 31/10/2010 : Now you can test if the connection will be successfully established with verbose (it test localhost/lan and WAN)
+- 07/11/2010 : Now disable/enabled taskmanager works like a charm for all Windows without beeing administrator.
+- 07/11/2010 : Now disable/enabled registry (regedit) works like a charm for all Windows without beeing administrator.
+- 07/11/2010 : Disable UAC added to server shield
+- 07/11/2010 : DNS Poisoning added in edit server , you can add some dns rules in hosts file very easily and also clean the whole host file before applying your custom changes
+- 11/11/2010 : Icon Pack with list added in the new Edit server , you can also drop some new icon in the Icons folder they will apear then in the list
+- 12/11/2010 : Binder totally recoded and use now his own ressource section
+- 12/11/2010 : Now in file binder you can choose if you want the file(s) to be drop in temp folder and executed or if you want them to be inject to default browser directly from resource without extracting it
+- 12/11/2010 : Edit server plugins system done, now you can code your own plugins that will be load at server startup, the system is safe threaded (It wont block the main application). 
+- 14/11/2010 : New screen capture, more fast, more stable and new settings
+- 14/11/2010 : Now screen capture control functions are safe threaded then more fast
+- 14/11/2010 : Now you can choose interval capture for screen capture
+- 14/11/2010 : Now you can automaticaly save snapshots like for webcam
+- 14/11/2010 : Now batch commands works even if UAC enabled
+- 14/11/2010 : Now VBS commands works even if UAC enabled
+- 14/11/2010 : New function added in control center / fun section : Microsoft reader allow you to make speak the remote computer
+- 16/11/2010 : Screen capture speed improved and comsume less CPU and RAM, also now it compare the previous picture with the new one in less than 10Ms :)
+- 16/11/2010 : Some part of the design had been refund, more compatible for Linux Wine, Windows 2000 and WinXP Classic theme also the design is more pro
+- 20/11/2010 : Trace route tab had made a fusion with trace map , stability improved it doesn't use browser anymore it is only a PNG picture and you can choose the size , zoom of this picture.
+- 20/11/2010 : Unremote webserver trace route ip module updated to v2.0
+- 20/11/2010 : A small SIN connection thumnail issue fixed
+- 20/11/2010 : CPU/RAM monitor GUI as changed it is more clean, and have nice progressbar colours ;) (for Vista and Windows 7 only) on XP and lower it will be normal progress bars.
+- 20/11/2010 : Two buttons added in Html scripting, batch scripting and visual basic scripting (Past clipbaord code and copy code to clipboard)
+- 20/11/2010 : Msn control tab better design
+- 20/11/2010 : Multithread file downloader design is now better and also you can now clear the downloaded items but all current download must been finished first.
+- 20/11/2010 : SIN Form design had changed now it is more pro , better for the eyes.
+- 20/11/2010 : General Settings panel change , i remove the SIN settings & General settings and make a fusion of the both its more clear.
+- 20/11/2010 : Now you can hide/show local files in File Manager
+- 20/11/2010 : New function added in system functions (control center) you can now get the remote hosts file and edit it (Require Admin state - UAC)
+- 21/11/2010 : Server downloader added in Edit Server menu popup, the downloader is coded in ASM then size = 2ko before editing and few byte more after edit cause of the setting
+						   The downloader code is open source.
+- 21/11/2010 : New function added in File Manager , called Run file > Injected to default browser , it will inject the file to default browser (32bit) and load it (Works on 64bit if the file to run is 32bit)
+- 21/11/2010 : Temp var added to combobox path in edit server

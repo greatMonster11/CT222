@@ -1,0 +1,59 @@
+LICENSE AGREEMENT FOR ATELIER WEB REMOTE COMMANDER (AWRC)
+
+You should carefully read the following terms and conditions before
+using this software.
+
+*** Evaluation Period before registration ***
+Unregistered use of AWRC after the evaluation period is in violation
+of Portuguese and International Copyright laws. The evaluation period
+is 15-days or 30-executions, whichever comes first.
+
+*** Distribution of Evaluation Version ***
+This software must not be physically or electronically distributed by
+any third-party sites, organizations or individuals without prior
+written consent from Atelier Web or their representatives.
+This software can be announced, promoted, presented, pictured,
+commented, discussed, criticized or advertised by anyone, individual
+or organization without consent, written or verbal, from Atelier Web
+or their representatives.
+
+*** Disclaimer of Warranty ***
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD 'AS IS' AND
+WITHOUT
+WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER
+WARRANTIES WHETHER EXPRESSED OR IMPLIED. Because of the various
+hardware and software environments into which AWRC may be put, NO
+WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED.
+
+Good data processing procedure dictates that any program be
+thoroughly tested with non-critical data before relying on it. The
+user must assume the entire risk of using the program.  ANY LIABILITY
+OF THE SELLER WILL BE LIMITED EXCLUSIVELY TO PRODUCT REPLACEMENT
+OR
+REFUND OF PURCHASE PRICE.
+
+*** Purchased Version ***
+- One Single User/Workgroup license of AWRC allows the program to be
+used by the licensee (the single person whose name is in the About box
+of AWRC) who uses the software personally (maximum of 2 computers used by
+the licensee) within a Microsoft Windows Workgroup.
+- One Single User/Domain license of AWRC allows the program to be
+used by the licensee (the single person whose name is in the About box
+of AWRC) who uses the software personally (maximum of 2 computers used by
+the licensee) within a Microsoft Windows Domain or Workgroup.
+- One Company license of AWRC allows the program to be installed
+on a Local Area Network to be used within Microsoft Windows Domains
+or Workgroups of a Company local premise, Site, University Campus or any
+other Organization local premise, by the number computers specified
+in the license details.
+
+*** Software Transfer of Rights and Rental ***
+You may not transfer rent, license, sublicense, assign, transfer, time share,
+host,
+lend or otherwise assign all or any portion of your rights.
+
+*** Governing Law ***
+This agreement shall be governed by the laws of the Republic of
+Portugal.
+
+

@@ -1,0 +1,547 @@
+REVISION HISTORY
+
+Release 7.51
+Fixes:
+* Some unusual screen resolution were not properly captured, one of such cases
+happened with screen widths of 1276 pixels in either 4 colors or 24 colors.
+* This release is made ready for differentiated automatic updates based on build
+type (Standard, CL or PB).
+
+Release 7.50
+Improvements:
+* A very significant speed improvement, due to a full rewrite of the image
+handling routines.
+* Included an alert icon which shows up on the remote system during a
+connection. (This is for conformance with some corporate policies, upon request
+we can still supply customers with a build without the alert icon).
+
+Fixes:
+* Solved all outstanding DEP issues, now it should run even on 64-bit server
+operating systems with DEP fully enforced.
+
+
+Release 7.07
+Fixes:
+* DEP issues mostly on 64-bit Windows could cause crash on launch.
+* Ctrl-Alt-Del, keyboard handling and permission related issues.
+
+Release 7.01:
+Fix:
+* Remote mouse movement issues.
+
+Release 7.0:
+Improvements:
+* Support for multiple monitors (up to 10 monitors) on the remotely accessed
+computer. You can easily select a monitor by using the Monitors drop down
+button under the viewer area of the Desktop tab.
+* Now, you can produce Control-Alt-Del on Windows 7, Windows 2008 and
+Windows Vista remote machines in the same way you did for previous Windows
+versions. No Windows settings need to be changed on the remote machine.
+* A number of code changes aimed at speed improvement and reducing CPU
+utilization and memory usage.
+* Encrypted communication has been simplified still keeping security at the
+highest level. Key pairs are now generated using the Diffie-Hellman algorithm
+and random data from Windows crypto API. There is no need for the user to
+enter any secret text to generate key pairs. Asymethric key exchange is done
+now in one single cycle.
+* And many more details.
+
+Fixes:
+* Some windows were placed on the desktop center (instead of screen center)
+when AWRC was launched from a computer with multiple monitors.
+* Keyboard handler fix, sometimes not possible to type to the remote machine.
+* Upgrading a computer from a backup could cause access violations when
+running a registered copy of AWRC.
+
+Release 6.2:
+
+Improvements:
+* A Connections Log is optionally produced on the local machine, this
+was a common request from helpdesk personnel. It is accessible through
+a button on the desktop tab.
+
+Fixes:
+* Some right-click popup menus had out of context items.
+* A few color fixes.
+
+Release 6.1
+
+Improvements:
+* The user can select from 2 user interfaces, Windows classic or
+Traditional.
+Windows Classic is now the default.
+* The Update Files item of the File System tab popup menu launches a
+dialog with a Remember Last Folder checkbox.
+
+Fixes:
+* Web updater.
+* SysInfo/General/Operating System identified all Windows Vista
+releases as Ultimate.
+
+Release 6.0
+
+Improvements:
+
+* Now, connections can be made to Windows Vista Business, Ultimate and
+Enterprise editions as well as to the upcoming new server currently
+codenamed "Longhorn Server".
+* The software has full support for remote session switching and
+logoff/logon maintaining the connection always alive (no need to
+disconnect). This functionality is relevant for Vista, Longhorn Server
+as well as for XP Fast User Switching (FUS).
+* By selecting the new View-Only mode, local mouse movements and
+keystrokes are not passed to the remote computer. This is useful for
+passive monitoring.
+* During a connection, you can disable the wallpaper and aero
+composition (Vista) on the remote computer. This enhances speed and
+reduces CPU cycles. The previous state is restored while
+disconnecting.
+* The Configure menu is now within a tab of the main Window, this
+improves usability and saves mouse clicks.
+* XP Pro FUS compatibility can be disabled from the Configure menu. If
+If Fast User Switching Services are disabled or stopped you can still
+connect by unchecking the box. The same happens with Windows Server
+2003, but here the default condition is disabled - not concerned with
+sessions.
+* The software automatically detects remote shutdown and disconnects
+the connection.
+* On remote Windows XP, Server 2003 and later, the software detects
+the process of hibernation or stand-by and disconnects the connection.
+* Common error messages on the Progress Report box relating to
+inhability to connect are now more detailed. We continue to advise
+people to read our FAQ either from the Help file or online at
+ttp://www.atelierweb.com/rcomm/faq.htm. The FAQ is not extensive but
+covers almost every conceivable difficulty. A Vista specific FAQ is
+also available,
+* The Processes grid reports also on Session ID, User and Domain.
+* The Progress Report box displays the time of the event.
+* The Sysinfo tab grids can properly report the new Operating Systems
+and CPUs.
+* Many List type grids can now be sorted by column.
+* AWRCAC (AWRC Access Control) is now much more powerful, able to
+monitor or block connections even before any user is logged on at the
+console.
+* We have included in the distribution a software named AWRCKEY. This
+software will remove a Registry Key used by pre-AWRC 6.0 purchased
+releases of AWRC. If you do not plan to use pre-AWRC 6.0 releases
+again you can remove the key with AWRCKEY.
+* And many more details.
+
+Release 5.57/5.58/5.59
+
+Fixes:
+
+* Reduced the size of awrexec.exe, the remote service started on
+remote system, allowing a faster connection to the remote machine.
+* Various access violations, most of them while waiting for a
+connection to be established after pressing the Connect button.
+* Trying to change the default hotkeys for Ctrl-Alt-Del and Full
+Screen might not be possible.
+
+Release 5.55
+
+Fixes:
+
+* Compatibility issues with x64 64-bit Windows releases:
+- SysInfo/Processes not showing 64-bit processes.
+- Ports Finder feature not providing results.
+- Uploading and Downloading files under the File System tab failed.
+* Memory not correctly reported under SysInfo/General for systems
+with more than 2GB of RAM.
+* SMBIOS information for BIOS under SysInfo/General not reported
+under Windows Server 2003 SP 1 and x64 64-bit Windows releases.
+* SysInfo/Physical Memory Viewer not providing results under Windows
+Server 2003 SP 1 and x64 64-bit Windows releases. Addresses in the
+range 0x000C0000 - 0x000FFFFF can be retrieve on these systems.
+
+Release 5.52
+
+Fixes:
+
+* AWRC password could not be removed (bug in release 5.51).
+
+Release 5.51
+
+Fixes:
+
+* Sending clipboard contents to the remote machine could fail.
+* Double-clicking on a file under the File System tab did not
+download it.
+
+Release 5.5
+
+Improvements:
+
+* Now, it is possible to prevent remote users from using the mouse or
+keyboard during a connection. Useful, when remote users must not be
+allowed to interfere with the work in progress.
+* Mouse wheel support has been added. It acts on the remote computer
+when the mouse is inside the remote desktop viewer. It acts on the
+viewer itself, scrolling it, when the mouse is outside the desktop
+viewer; pressing the Ctrl key while moving the wheel scrolls the
+viewer horizontally.
+* Under the File System tab you can download and upload complete
+directory trees in addition to files, previously only files were
+allowed. You can opt for downloading and uploading in compressed
+format, as previously, (better across the Internet) or in
+uncompressed format (faster within local networks).
+* Now, most Windows and internal error messages are reported
+verbosely.
+* The right-click popup menu of the Sysinfo tab has options to save
+or
+print all the boxes at the same time.
+* When checked under Options, the User Name and Password used to
+connect are saved in the Registry and will autofill the respective
+boxes when the program launches. We do not recommend selecting this
+Option when other people not supposed to know your password may have
+access to the local computer. If selected, the User Name and Password
+boxes change color and a warning is shown when the program closes.
+* It is possible to launch AWRC from the command line and make a
+connection. The syntax is:
+Path\awrc.exe /r=<Remote Host> /u=<User> /p=<Password>
+for example:
+"C:\Program Files\Remote Commander\awrc.exe" /r=192.168.1.100
+/u=Administrator /p=Mypassword
+* An Adminstrator can set a Password under Options to prevent other
+users from launching AWRC.
+* Under Options, you may set a Compression Level for the remote
+desktop images. Within a fast LAN it may be faster to use Light
+compression, while across the internet you may try the Strong
+compression. The default is Normal, which is a tentative compromise
+between both.
+
+Fixes:
+
+* eTrust AV and ZoneAlarm 5.5 (based on the same VET engine), may
+optionally use on-access AV scanning. This is done not only for files
+but, oddly, for inbound network pipes at creation time. The effect is
+not transparent and caused connection problems on the computer where
+AWRC and the scanner is installed. If the scanner was installed only
+on the remote computer there was no problems.
+* On the NT winlogon desktop the cursor tended to jump to the top
+left corner.
+* After a connection and logon on the remote winlogon screen a
+console window flashed briefly on the default desktop.
+* When downloading files using the popup menu of the File System
+page, some temporary files were left behind on the remote system. The
+same happened on the local system when uploading files.
+
+Release 5.01
+
+Fixes:
+
+* Immediately after logging to a Windows 2000 Server, a console
+window could start popping up over the desktop producing an infinite
+flash effect. This problem was not reported for other Windows
+releases.
+* In some cases, normally after logging in, the keyboard or mouse
+could not be used if no window on the desktop had the input focus.
+This problem was only seen in Windows 2000 machines.
+* The updating functions were not working reliably and we decided not
+to provide files for direct updating from 5.0 to 5.01 from inside
+AWRC. Users must download 5.01 from the site as usual.
+
+Release 5.0
+
+Improvements:
+
+* Full-screen is now supported, i.e, when selected, the image of
+the remote desktop completely covers the screen area of the local
+computer. Also, the user can select from the Options to maintain
+the remote screen resolution aspect ratio. In this case, if the local
+and remote aspect ratios are different no stretching is made (rather
+an area of the local screen is left black to compensate for the
+different ratios).
+* Screen resolution changes on the remote system are automatically
+reflected on the local system. This is valid both in normal view and
+full-screen modes.
+* The remote service started on the remote system is now configurable
+from the Options. Configuration allows changing the binary name,
+which defaults to awrexec.exe, the service name and the service
+display name. The icon of the binary file has been removed as well.
+This is a security subject and contributes to the activity becoming
+even less noticeable, when this is a requirement. Of course,
+the latest AWRCAC release is still able to detect and stop AWRC
+(although we may sell, under special circumstances, AWRC special
+builds that circumvent the AWRCAC control).
+* AWRC supports manual (the default) and automatic updates. When an
+update exists, and the user accepts to proceed with it, the new
+software is installed directly from the web with no need to run
+any setup or install program.
+* AWRCAC has been updated in order to deal with cases where the
+service and binary names have not the default values.
+
+Fixes:
+
+* When connecting to a Windows XP remote, usually the first keystroke
+was not transmitted.
+* "Initialization at stage..." errors where not adequately fixed in
+release 4.7. This was more evident when you disconnected then
+started a new connection to the same system within less than one
+minute.
+* The exception at 0x00403038, which appeared occasionally during
+the disconnect stage, has been fixed.
+* Corrected remote Operating System identification of Windows 2003
+Enterprise, Standard and Web variants and Windows NT4 SP6 vs SP6a.
+
+Release 4.7
+
+Improvements:
+
+* The remote desktop image is now captured using a more efficient
+algorithm. Experiments have confirmed it is now faster in every case,
+including on a fast LAN, sending the image in compressed form so we
+have removed the option for sending it uncompressed.
+
+Fixes:
+
+* The remote system CPU usage has been reduced but the remote desktop
+screen updates are significantly faster.
+* Selecting Black and White desktop colors under Options is not
+anymore possible. We don't think anyone was using them. On the other
+hand 32-bit colours have been added.
+* Connections on Domains with heavy loaded servers could fail with
+"Initialization failed at stage..." errors. Some antivirus software
+scanning network drives contributed as well for the failure.
+* Errors appearing on the remote computer Event log when
+disconnecting.
+
+Release 4.6
+
+Improvements:
+
+* Launching files through the popup menu of the File System tab can
+now be made either using the Local System account, like in previous
+releases, or any user account on the remote computer.
+When using either the account of the remote logged-on user or the
+account you have connected to the remote computer you don't have to
+provide the user name and password, you just selected those options
+from the popup menu.
+Using an user account provides access to the HKEY_CURRENT_USER hive
+of the Registry for that account. This works much like the Windows
+RunAs command.
+As a side note, programs launched from the AWRC Desktop page always
+run on the remote computer under the account of the remote
+interactive user.
+* A large number of network related information grids have been
+added, namely:
+- Connections and Listening Ports.
+- TCP statistics.
+- UDP statistics.
+- ICMP statistics.
+- Routing Table.
+- DNS Servers.
+- Persistent Routes.
+- IP Statistics/Settings.
+- Installed Protocols/Protocol Details.
+- Addressing Information Table.
+- Net to Media Table.
+- Interface Statistics/Settings.
+* When the mouse is disconnected on the remote computer, the local
+user can still see an arrow mouse cursor for easier navigation on the
+remote desktop (this is optional and can be disabled from the
+Options).
+* Now, you can select the Ctrl+Alt+Del keyboard shortcut with a
+larger freedom of choice. A suitable Ctrl+Alt+Del keyboard shortcut
+must have at least a pair of keys from Ctrl, Alt or Shift followed by
+a letter, number or function key. For example, Shift+Ctrl+F10 or
+Ctrl+Shift+Alt+3 are both acceptable.
+* AWRCAC (Atelier Web Remote Commander Access Control) has been
+updated in order to accomodate the new Network information features.
+
+Fixes:
+
+* When changing to the desktop tab from another tab, full screen
+refreshes could stall in some cases.
+* Increasing/Decreasing the Font sizes in some grids could cause an
+Access Violation.
+* On connections to a Windows NT remote computer, the "hand" mouse
+cursor tended to replace the "arrow" mouse cursor.
+* Attempting connections with the default credentials, i.e, without
+entering a user name and password, to a machine where a connection is
+not being possible could block the program for a very long time, even
+pressing the Abort button. Now, it is set to time out in 60 seconds
+and will respond to the Abort button.
+* The option "See remote mouse activity" was not consistently
+echoing the remote mouse movements. Now, it will (for as long as the
+local mouse pointer does not leave the desktop viewer area).
+* On the File System tab, selecting	Upload Files then Cancel in
+the
+Open Dialog will not allow moving away from the File System tab.
+* Windows 2003 is correctly identified in the Sysinfo tab.
+
+22nd January 2004 Release 4.0
+
+Improvements:
+
+* AWRC can use strong encryption, Blowfish CBC with a 352-bit key
+length, impossible to break by brute force or other means in the
+current state of technology. The session key negotiation between
+local and remote is performed using Elliptic Curve 160-bit asymmetric
+key pairs (equivalent to 1024-bit RSA). AWRC encryption does not
+cover the Microsoft Networks negotiation itself.
+Shares and Services information are not encrypted as well, since they
+are retrieved locally using the Microsoft Networks mechanism. Other
+than these, everything else, from the remote screen to chat
+conversations are strongly encrypted and unretrievable by anyone
+watching the network traffic.
+* The Clipboard contents can be sent to the remote computer and
+retrieved from the remote computer. Unlike other remote control
+software which can manipulate only text, AWRC can send and retrieve
+most standard clipboards formats including pictures and sounds. Of
+course, private clipboard formats and OLE-aware formats are not
+directly transferable from system to system.
+* The remote desktop screen can be scaled from 25% to 200% of the
+orginal size. Scaling is passed through an antialiasing filter, so
+that most of the orginal details are kept. The user can select a
+default scaling under Options.
+* AWRCAC (Atelier Web Remote Commander Access Control) has been
+updated in order to control the new Clipboard feature.
+
+Fixes:
+
+* Mouse flicker can be eliminated in most cases. You must keep
+unselected 'View Layered Windows' in the Options (note that by doing
+this you will be unable to see the small tooltips in the remote
+desktop).
+
+
+19th March 2003 Release 3.1
+
+Improvements
+
+* Full support for AWRCAC (Atelier Web Remote Commander Access
+Control). AWRCAC allows a remote computer to block, filter and log
+AWRC operations. AWRCAC defaults to block connections from pre-AWRC
+3.1 releases. An evaluation version of AWRCAC is included in the
+AWRC distribution.
+* The Help file has been converted from the old Winhelp format to
+HTML Help format.
+
+Fixes:
+
+* Connections were not possible to a remote computer using an
+Administrator's account without a password.
+* Connection timeout from the Options was not correctly updated.
+
+6th December 2002 Release 3.0
+
+Improvements:
+
+* Updates from the remote screen are now much faster, almost in real
+time. The updates can be received uncompressed (better for 100Mbps
+LANs and higher) or compressed (better for slow LANs and the
+Internet). The refresh rate can range from Fastest to Paused. The
+highest refresh rates are usually well supported by computers above
+Pentium 700 Mhz.
+* Palette-based as well as 16-bit, 24-bit and 32-bit true-color
+screen desktops are supported both on remote and locally, in other
+words, images are manipulated in a device independent manner.
+* When the remote is using a stock mouse pointer, this is reproduced
+on the local machine, otherwise the standard arrow pointer is used
+(as in previous releases).
+* Ctrl-Alt-Del can now be issued on the default desktop. Previously
+it could be issued only on the winlogon desktop.
+* Now every keyboard key combination is simulated on the remote
+system. This includes international keyboards, however the same key
+combination may have different meaning if the remote keyboard layout
+is different. Ctrl-Alt-Del has, of course a different key
+combination.
+* AWRC tabbed interface has been changed allowing for an easier
+integration of new features.
+* Remote mouse activity can be optionally monitored (monitoring is
+selected by default).
+
+Fixes:
+
+* Ctrl-Alt-Del issued on the winlogon desktop used to close the
+existing connection.
+* Uploading and downloading of large files used to close the existing
+connection.
+* Corrects wake-up from screensavers, including password protected.
+
+9 October 2002 Release 2.0
+
+Improvements:
+
+* Remote System General Information, including Operating System,
+Processor, BIOS, Memory, Display Adapter and Logical Printers.
+* Very comprehensive information on Hardware Devices.
+* Users and Groups detailed information.
+* Password hashes capture.
+* Physical Memory Viewer.
+* Ports Finder (mapping of applications to open ports).
+* Facilities for Chat with the remote machine.
+* Very comprehensive remote file system management, including file
+copy, move, rename, delete, create directory, zip and unzip as well
+as multi-files download and upload.
+* Request authorization for remote operations.
+* Option to clear all grids on disconnect or leave them untouched.
+Leaving them untouched is useful for post-mortem analysis.
+* Splitter between upper bevelled pane and bottom panel allows panes
+resizing.
+* A few enhancements for better integration with Windows XP.
+* Help file has been enhanced and integrated into application context
+by calling F1.
+
+Fixes:
+* Connection timeout can be adjusted from Options menu. This should
+solve spontaneous disconnects in low-bandwidth or very loaded
+systems.
+* All traces of AWRC operation should disappear on remote upon
+disconnection. Previously, this was not always the case.
+* In most cases data travels compressed between both systems. This
+allows a fast data exchange even when the amount of data can reach
+very significant levels, namely for the Hardware Devices, Ports
+Finder and Users and Groups.
+* Self-adjusting Refresh time. When the user selects Auto for the
+Desktop Refresh, AWRC will adjust it upwards if the network
+conditions do not allow the selected Refresh time.
+
+3 December 2001 Release 1.1
+
+Fixes:
+* Improved low-bandwith connections (e.g. Internet) support.
+* Downloading large files on slow-bandwith connections (e.g.
+Internet) used to break the link to remote.
+
+Improvements:
+* Image compression level can be set through Options. High-bandwith
+connections work better with low compression levels. The inverse
+applies to low-bandwith connections.
+
+1 December 2001 Release 1.0
+
+First public release.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

